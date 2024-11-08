@@ -1,5 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import accuracy_score, confusion_matrix
 
 
 def load_data():
@@ -14,6 +15,9 @@ def train(X_train, y_train):
 
 def eval(gnb, X_test, y_test):
     y_pred = gnb.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+    tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+    print(f'Acc: {acc} / TN: {tn} / FP: {fp} / FN: {fn} / TP: {tp}')
 
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = load_data()
