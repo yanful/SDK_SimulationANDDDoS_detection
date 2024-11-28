@@ -6,6 +6,8 @@ from torch.nn import CrossEntropyLoss
 from torch.optim import Adam
 from torch.autograd import Variable
 from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.model_selection import train_test_split
+import numpy as np
 
 class LUCID(Module):
     def __init__(self, dim_x, dim_y):
@@ -40,15 +42,15 @@ class BasicMLP(Module):
     def forward(self, x):
         return self.model(x)
     
-    def train(self, train_data, epoch):
+    def train(self, x_train, y_train, epoch=100):
         self.train()
 
-        total_step = len(train_data)
+        total_step = len(x_train)
 
         for e in range(epoch):
-            for i, (x, y) in enumerate(train_data):
+            for i, x in enumerate(x_train):
                 b_x = Variable(x)
-                b_y = Variable(y)
+                b_y = Variable(y_train[i])
                 output = self(b_x)
                 loss = self.loss(output, b_y)
 
@@ -66,13 +68,23 @@ class BasicMLP(Module):
         with torch.no_grad():
             x, y = next(iter(test_data))
             out = self(x)
-            acc = accuracy_score(x, y)
-            tn, fp, fn, tp = confusion_matrix(x, y).ravel()
+            acc = accuracy_score(out, y)
+            tn, fp, fn, tp = confusion_matrix(out, y).ravel()
             print(f'Acc: {acc} / TN: {tn} / FP: {fp} / FN: {fn} / TP: {tp}')
-    
-class LSTMAutoencoder(Module):
-    def __init__(self, dim_x, dim_y):
-        pass
 
-    def forward(self, x):
-        pass
+def one_hot_encode(y):
+    return np.array([[1, 0] if i == 0 else [0, 1] for i in y])
+
+if __name__ == "__main__":
+    dataset = np.loadtxt('dataset.csv', delimiter=',', dtype=np.int64)
+    X = dataset[:, :-1]
+    y = one_hot_encode(dataset[:, -1:])
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=0)
+    X_train = torch.tensor(X_train)
+    X_test = torch.tensor(X_test)
+    y_train = torch.tensor(y_train)
+    y_test = torch.tensor(y_test)
+
+    model = BasicMLP(6, 10, 2)
+    model.train(X_train, y_train)
+    model.eval(X_test, y_test)
