@@ -1,0 +1,123 @@
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=0.322s, table=0, n_packets=6, n_bytes=3540, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=0.007s, table=0, n_packets=278, n_bytes=296348, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=30.341s, table=0, n_packets=37, n_bytes=21282, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=27.282s, table=0, n_packets=4085797, n_bytes=4355458578, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=60.361s, table=0, n_packets=69, n_bytes=39066, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=57.302s, table=0, n_packets=8639519, n_bytes=9209724182, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=90.380s, table=0, n_packets=101, n_bytes=56850, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=87.321s, table=0, n_packets=13176480, n_bytes=14046122560, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=120.400s, table=0, n_packets=131, n_bytes=74002, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=117.341s, table=0, n_packets=17621282, n_bytes=18784280468, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=150.420s, table=0, n_packets=163, n_bytes=91786, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=147.361s, table=0, n_packets=22141158, n_bytes=23602466236, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=180.440s, table=0, n_packets=194, n_bytes=109528, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=177.381s, table=0, n_packets=26662903, n_bytes=28422645382, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=210.459s, table=0, n_packets=226, n_bytes=127312, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=207.400s, table=0, n_packets=31183434, n_bytes=33241529380, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=240.479s, table=0, n_packets=258, n_bytes=145096, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=237.420s, table=0, n_packets=35707930, n_bytes=38064640068, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=270.498s, table=0, n_packets=290, n_bytes=162880, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=267.439s, table=0, n_packets=40238771, n_bytes=42894514526, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=300.518s, table=0, n_packets=322, n_bytes=180664, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=297.459s, table=0, n_packets=44746142, n_bytes=47699369964, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=330.537s, table=0, n_packets=352, n_bytes=198364, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=327.478s, table=0, n_packets=49273066, n_bytes=52525070948, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=360.557s, table=0, n_packets=385, n_bytes=216738, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=357.498s, table=0, n_packets=53789165, n_bytes=57339230434, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=390.577s, table=0, n_packets=417, n_bytes=234522, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=387.518s, table=0, n_packets=58299494, n_bytes=62147239100, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=420.597s, table=0, n_packets=449, n_bytes=252306, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=417.538s, table=0, n_packets=62813602, n_bytes=66959276180, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=450.616s, table=0, n_packets=479, n_bytes=270006, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=447.557s, table=0, n_packets=67322502, n_bytes=71765763580, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=480.636s, table=0, n_packets=511, n_bytes=287790, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=477.577s, table=0, n_packets=71834081, n_bytes=76575104746, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=510.655s, table=0, n_packets=543, n_bytes=305574, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=507.596s, table=0, n_packets=76336360, n_bytes=81374532112, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=540.676s, table=0, n_packets=573, n_bytes=323274, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=537.617s, table=0, n_packets=80879505, n_bytes=86217524682, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=570.695s, table=0, n_packets=605, n_bytes=341058, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=567.636s, table=0, n_packets=85399262, n_bytes=91035583596, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=600.715s, table=0, n_packets=637, n_bytes=358842, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=597.656s, table=0, n_packets=89893958, n_bytes=95826927484, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=630.736s, table=0, n_packets=667, n_bytes=376542, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=627.677s, table=0, n_packets=94410076, n_bytes=100641109272, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=660.756s, table=0, n_packets=699, n_bytes=394326, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=657.697s, table=0, n_packets=98913619, n_bytes=105441884062, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=690.776s, table=0, n_packets=731, n_bytes=412110, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=687.717s, table=0, n_packets=103420179, n_bytes=110245874974, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=720.795s, table=0, n_packets=763, n_bytes=429894, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=717.736s, table=0, n_packets=107933261, n_bytes=115056818338, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=750.816s, table=0, n_packets=794, n_bytes=447636, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=747.757s, table=0, n_packets=112431240, n_bytes=119851662928, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=780.836s, table=0, n_packets=826, n_bytes=465420, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=777.777s, table=0, n_packets=116869740, n_bytes=124583101880, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=810.858s, table=0, n_packets=859, n_bytes=483246, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=807.799s, table=0, n_packets=121376235, n_bytes=129387022478, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=840.878s, table=0, n_packets=891, n_bytes=501030, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=837.819s, table=0, n_packets=125896755, n_bytes=134205894750, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=870.899s, table=0, n_packets=923, n_bytes=518814, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=867.840s, table=0, n_packets=130421609, n_bytes=139029387066, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=900.919s, table=0, n_packets=955, n_bytes=536598, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=897.860s, table=0, n_packets=134941539, n_bytes=143847630398, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=930.941s, table=0, n_packets=987, n_bytes=554382, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=927.882s, table=0, n_packets=139448232, n_bytes=148651763088, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=960.961s, table=0, n_packets=1019, n_bytes=572166, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=957.902s, table=0, n_packets=143966548, n_bytes=153468285896, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=990.983s, table=0, n_packets=1051, n_bytes=589950, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=987.924s, table=0, n_packets=148468658, n_bytes=158267533108, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1021.003s, table=0, n_packets=1082, n_bytes=607692, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=1017.944s, table=0, n_packets=152980807, n_bytes=163077482918, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1051.024s, table=0, n_packets=1114, n_bytes=625476, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=1047.965s, table=0, n_packets=157513729, n_bytes=167909575722, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1081.044s, table=0, n_packets=1146, n_bytes=643260, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=1077.985s, table=0, n_packets=162057773, n_bytes=172753524578, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1111.065s, table=0, n_packets=1176, n_bytes=660960, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=1108.006s, table=0, n_packets=166638067, n_bytes=177636117982, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1141.086s, table=0, n_packets=1208, n_bytes=678744, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=1138.027s, table=0, n_packets=171204093, n_bytes=182503499650, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1171.107s, table=0, n_packets=1239, n_bytes=696486, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=1168.048s, table=0, n_packets=175781091, n_bytes=187382578494, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1201.126s, table=0, n_packets=1271, n_bytes=714270, send_flow_rem reset_counts in_port=2,dl_src=be:78:3c:bd:ca:58,dl_dst=b6:97:b2:56:2b:1f actions=output:1
+ cookie=0x0, duration=1198.067s, table=0, n_packets=180284301, n_bytes=192182998306, send_flow_rem reset_counts in_port=1,dl_src=b6:97:b2:56:2b:1f,dl_dst=be:78:3c:bd:ca:58 actions=output:2
