@@ -1,7 +1,7 @@
 import pandas as pd
 
 # file_reader = open('./UDP_attack_sample.txt', 'r').read()
-file_reader = open('./classifiers/data/flows_output_TCP_rand.txt', 'r').read()
+file_reader = open('./classifiers/data/attack/flows_output_TCP_rand.txt', 'r').read()
 # print(file_reader)
 content = file_reader.split('\n')
 
@@ -88,5 +88,5 @@ for i in range(0, len(content), 3):
                         'in_packets': in_packets, 'in_bytes': in_bytes, 'label': label})
     # print(i)
     # print(data)
-    data.to_csv('./classifiers/data/TCP_attack.csv')
+    data.to_csv('./classifiers/data/attack/TCP_attack.csv', index=False)
     # print(dur_2)
