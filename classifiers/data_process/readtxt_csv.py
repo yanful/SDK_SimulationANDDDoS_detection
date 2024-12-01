@@ -1,7 +1,7 @@
 import pandas as pd
 
 # file_reader = open('./UDP_attack_sample.txt', 'r').read()
-file_reader = open('./classifiers/data/attack/flows_output_TCP_rand.txt', 'r').read()
+file_reader = open('./classifiers/data/attack/flows_output_ICMP_rand.txt', 'r').read()
 # print(file_reader)
 content = file_reader.split('\n')
 
@@ -39,7 +39,7 @@ for i in range(0, len(content), 3):
         data_in_2 = content[i+5].strip().split(', ')
 
         # IP
-        ip_proto.append('TCP')
+        ip_proto.append('ICMP')
 
         # Duration
         dur_1 = data_out_1[1].replace('duration=','')
@@ -88,5 +88,5 @@ for i in range(0, len(content), 3):
                         'in_packets': in_packets, 'in_bytes': in_bytes, 'label': label})
     # print(i)
     # print(data)
-    data.to_csv('./classifiers/data/attack/TCP_attack.csv', index=False)
+    data.to_csv('./classifiers/data/attack/ICMP_attack.csv', index=False)
     # print(dur_2)
