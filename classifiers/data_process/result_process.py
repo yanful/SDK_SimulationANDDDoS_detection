@@ -14,7 +14,7 @@ data = data.drop('ip_proto',axis = 1)
 # Join the encoded df
 data = data.join(one_hot)
 # Reorder columns
-data = data[['duration', 'UDP', 'out_packets', 'out_bytes','in_packets','in_bytes','label']]
+data = data[['duration', 'UDP', 'TCP', 'out_packets', 'out_bytes','in_packets','in_bytes','label']]
 # print(data)
 # Shuffle rows
 data = data.sample(frac=1, random_state=rand_seed).reset_index(drop=True)

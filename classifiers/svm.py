@@ -32,6 +32,7 @@ import pandas as pd
 from sklearn import svm
 from sklearn.metrics import accuracy_score, confusion_matrix
 
+
 train_data = pd.read_csv('./classifiers/data/result/result_train_0.csv')
 test_data = pd.read_csv('./classifiers/data/result/result_test_0.csv')
 
@@ -45,4 +46,6 @@ y_test_pred = svm_obj.predict(X_test)
 # print(y_train_pred)
 print(accuracy_score(y_train, y_train_pred))
 print(accuracy_score(y_test, y_test_pred))
+tn, fp, fn, tp = confusion_matrix(y_test, y_test_pred).ravel()
+print(f'Acc: {accuracy_score(y_test, y_test_pred)} / TN: {tn} / FP: {fp} / FN: {fn} / TP: {tp}')
 # print(X_train)
