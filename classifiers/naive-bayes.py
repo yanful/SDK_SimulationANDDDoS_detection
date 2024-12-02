@@ -7,14 +7,18 @@ def one_hot_encode(y):
     return np.array([[1, 0] if i == 0 else [0, 1] for i in y])
 
 def load_data():
-    dataset = np.loadtxt('dataset.csv', delimiter=',', dtype=np.int64)
+    dataset = np.loadtxt('data/result/result_0.csv', delimiter=',', dtype=str)[1:]
+    dataset[:, 1] = np.where(dataset[:, 1] == 'TCP', 0,
+        np.where(dataset[:, 1] == 'UDP', 1, 2))
+    dataset = dataset.astype(float)
     X = dataset[:, :-1]
-    y = one_hot_encode(dataset[:, -1:])
+    y = dataset[:, -1]
     return train_test_split(X, y, test_size=0.25, random_state=0)
 
 def train(X_train, y_train):
     gnb = GaussianNB()
     gnb.fit(X_train, y_train)
+    eval(gnb, X_train, y_train)
     return gnb
 
 def eval(gnb, X_test, y_test):
