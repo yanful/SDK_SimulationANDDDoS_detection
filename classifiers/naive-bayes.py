@@ -1,6 +1,7 @@
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.preprocessing import StandardScaler
 import numpy as np
 
 def one_hot_encode(y):
@@ -12,6 +13,7 @@ def load_data():
         np.where(dataset[:, 1] == 'UDP', 1, 2))
     dataset = dataset.astype(float)
     X = dataset[:, :-1]
+    X = StandardScaler().fit_transform(X)
     y = dataset[:, -1]
     return train_test_split(X, y, test_size=0.25, random_state=0)
 
