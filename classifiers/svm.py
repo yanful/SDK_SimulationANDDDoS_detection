@@ -30,14 +30,28 @@
 
 import pandas as pd
 from sklearn import svm
-from sklearn.metrics import accuracy_score, confusion_matrix
+import numpy as np
+from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, precision_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
 
+def load_data():
+    dataset = np.loadtxt('data/result/result_0.csv', delimiter=',', dtype=str)[1:]
+    dataset[:, 1] = np.where(dataset[:, 1] == 'TCP', 0,
+        np.where(dataset[:, 1] == 'UDP', 1, 2))
+    dataset = dataset.astype(float)
+    X = dataset[:, :-1]
+    X = StandardScaler().fit_transform(X)
+    y = dataset[:, -1]
+    return train_test_split(X, y, test_size=0.25, random_state=0)
 
-train_data = pd.read_csv('./classifiers/data/result/result_train_0.csv')
-test_data = pd.read_csv('./classifiers/data/result/result_test_0.csv')
-
-X_train, y_train = train_data.iloc[:, :-1], train_data.iloc[:, -1]
-X_test, y_test = test_data.iloc[:, :-1], test_data.iloc[:, -1]
+# train_data = pd.read_csv('./classifiers/data/result/result_train_0.csv')
+# test_data = pd.read_csv('./classifiers/data/result/result_test_0.csv')
+X_train, X_test, y_train, y_test = load_data()
+# X_train, y_train = train_data.iloc[:, :-1], train_data.iloc[:, -1]
+# X_test, y_test = test_data.iloc[:, :-1], test_data.iloc[:, -1]
+# print(len(y_train))
+# X_train, y_train
 
 svm_obj = svm.SVC()
 svm_obj.fit(X_train, y_train)
@@ -46,6 +60,10 @@ y_test_pred = svm_obj.predict(X_test)
 # print(y_train_pred)
 print(accuracy_score(y_train, y_train_pred))
 print(accuracy_score(y_test, y_test_pred))
+tn, fp, fn, tp = confusion_matrix(y_train, y_train_pred).ravel()
+print(f'Acc: {accuracy_score(y_train, y_train_pred)} / TN: {tn} / FP: {fp} / FN: {fn} / TP: {tp}')
+print(f'F1_score: {f1_score(y_train, y_train_pred)} / Precision: {precision_score(y_train, y_train_pred)}')
 tn, fp, fn, tp = confusion_matrix(y_test, y_test_pred).ravel()
 print(f'Acc: {accuracy_score(y_test, y_test_pred)} / TN: {tn} / FP: {fp} / FN: {fn} / TP: {tp}')
+print(f'F1_score: {f1_score(y_test, y_test_pred)} / Precision: {precision_score(y_test, y_test_pred)}')
 # print(X_train)

@@ -1,6 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, f1_score
 from sklearn.preprocessing import StandardScaler
 import numpy as np
 
@@ -28,6 +28,7 @@ def eval(gnb, X_test, y_test):
     acc = accuracy_score(y_test, y_pred)
     tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
     print(f'Acc: {acc} / TN: {tn} / FP: {fp} / FN: {fn} / TP: {tp}')
+    print(f'F1_score: {f1_score(y_test, y_pred)} / Precision: {precision_score(y_test, y_pred)}')
 
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = load_data()
